@@ -1,0 +1,65 @@
+.content{
+    background: url(./img/fond.jpg); 
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+.row{
+    margin: 20px 0 20px 0;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    /* background: aqua; */
+    padding: 10px;
+    color: #626262;font-style: italic;
+    font-weight: 500;
+    font-family: geneva;
+    text-align: center;
+}
+#box-date{
+    background: #FED9B7;
+    border-radius: 20px;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-size: 20px;
+}
+#input-todo{
+    border-radius: 10px;
+}
+/* .test{
+    background: #626262;
+} */
+.sticky{
+    background: url(./img/sticki.png);
+    background-size: cover;
+    background-position: center;
+    height:98px ;
+    width: 239px;
+
+}
+td{
+    position:relative; 
+    align-items: end;
+    padding-top: 50px;
+}
+.bi{
+    background: #F7A58F;
+    padding: 10px;
+    border-radius: 10%;
+    color: #343A40;
+    font-weight: bolder;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition-property: all;
+}
+.bi:hover {
+    pointer-events: painted;
+    background: #F07167;
+    color: black;
+    font-size: 17px ;
+}
+.btn{
+    border: none;
+}
