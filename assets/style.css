@@ -8,6 +8,7 @@
 }
 .row{
     margin: 20px 0 20px 0;
+    
 }
 .title{
     display: flex;
@@ -26,12 +27,13 @@
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     font-size: 20px;
 }
-#input-todo{
+#input-todo, #input-edit {
     border-radius: 10px;
 }
-/* .test{
-    background: #626262;
-} */
+#line-edit{
+    display: none;
+}
+
 .sticky{
     background: url(./img/sticki.png);
     background-size: cover;
@@ -47,7 +49,7 @@ td{
 }
 .bi{
     background: #F7A58F;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10%;
     color: #343A40;
     font-weight: bolder;
@@ -62,4 +64,5 @@ td{
 }
 .btn{
     border: none;
+  
 }
